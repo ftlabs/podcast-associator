@@ -1,0 +1,32 @@
+{
+  "name": "podcast-associator",
+  "version": "1.0.0",
+  "description": "Associate podcasts with article UUIDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftlabs/podcast-associator.git"
+  },
+  "keywords": [
+    "FTLabs",
+    "podcasts",
+    "FT"
+  ],
+  "author": "Sean M. Tracey & David Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftlabs/podcast-associator/issues"
+  },
+  "homepage": "https://github.com/ftlabs/podcast-associator#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "debug": "^2.2.0",
+    "is-uuid": "^1.0.2",
+    "morar-client": "^0.6.0",
+    "node-fetch": "^1.6.3",
+    "xml2js": "^0.4.17"
+  }
+}
